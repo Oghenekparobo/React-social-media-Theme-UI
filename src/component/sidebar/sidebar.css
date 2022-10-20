@@ -1,5 +1,86 @@
 .sidebar{
     flex: 3;
     height: calc(100vh - 50px);
-    background-color: yellowgreen;
+    overflow-y:scroll;
 }
+
+::-webkit-scrollbar{
+    width:5px;
+}
+
+
+::-webkit-scrollbar-track{
+    background-color:#f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color:gray;
+}
+
+
+.sidebar-wrapper{
+    padding:20px;
+}
+
+.sidebar-list{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.sidebar-list__item{
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.list-item__icon{
+    margin-right: 15px;
+}
+
+.sidebar-button{
+    width:150px;
+    border:none;
+    font-weight:500;
+    padding:10px;
+    border-radius:5px;
+
+}
+
+.sidebar-hr{
+    margin:20px 0;
+}
+
+.sidebar-friend__list{
+    padding: 0;
+    margin:0;
+    list-style:none;
+}
+
+.sidebar-friend{
+    display:flex;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.sidebar-friend__img{
+    width:32px;
+    height:32px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-right:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
